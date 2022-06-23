@@ -1,7 +1,9 @@
 name: Auto Merge
 on:
   pull_request:
-    branches: [master]
+    branches: master
+    types:
+      - closed
 
 jobs:
   merge-master-to-stg-to-dev:
