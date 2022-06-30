@@ -6,7 +6,7 @@ on:
     branches:
       - feature/bugfix
     paths:
-      - VERSION
+      - VER*
 
 jobs:
   merge-master-to-stg-to-dev:
