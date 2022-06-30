@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - feature/bugfix
+      - master
     paths:
-      - VER*
+      - VERSION
 
 jobs:
   merge-master-to-stg-to-dev:
