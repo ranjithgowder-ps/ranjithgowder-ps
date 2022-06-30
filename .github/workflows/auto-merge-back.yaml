@@ -6,7 +6,7 @@ on:
     branches:
       - master
     paths:
-      - VERSION
+      - 'VERSION'
 
 jobs:
   merge-master-to-stg-to-dev:
