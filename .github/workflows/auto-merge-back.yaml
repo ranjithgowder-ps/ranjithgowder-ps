@@ -1,10 +1,14 @@
 name: Auto Merge
+
 on:
   workflow_dispatch:
   push:
-    branches: master
+    branches:
+      - feature/bugfix
     paths:
       - 'VERSION'
+
+jobs:
 
 jobs:
   merge-master-to-stg-to-dev:
