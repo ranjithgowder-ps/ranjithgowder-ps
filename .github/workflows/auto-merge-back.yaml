@@ -9,8 +9,6 @@ on:
       - 'VERSION'
 
 jobs:
-
-jobs:
   merge-master-to-stg-to-dev:
     timeout-minutes: 2
     runs-on: ubuntu-latest
