@@ -7,7 +7,6 @@ on:
       - master
     paths:
       - 'VERSION'
-    skip-checks: false
 
 jobs:
   merge-master-to-stg-to-dev:
